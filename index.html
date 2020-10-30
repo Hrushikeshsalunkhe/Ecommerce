@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- write in,last -->
+    <meta name= "viewport" content="width =device-width ,initial-scale=1.0">
+    <title>RedStore | Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome 4 cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- 16 made a background img of page and close div to last -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <!-- 1 logo -->
+                    <img src="images/logo.png" alt="Error" width="125px">
+                  
+
+                </div>
+                <!-- 2 nav ul in li -->
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <!-- 20 add the icon on left side cart icon -->
+                <img src="images/cart.png" alt="error" width="30px" height="30px">
+                  <!-- 43 for repositery we are adding  -->
+                  <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoogle()">
+
+            </div>
+            <!-- 11 add the row and   cloumn -->
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout A New Style!<br>A New Style</h1>
+                    <p>Success isn't always about greatness.It's About
+                        consistency.Consistency<br> hard work gain success.Greatness Will coem
+                    </p>
+                    <!-- 14 add a button    code for arrow-->
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <!-- 12 add the img then go to css to set the img -->
+                <div class="col-2">
+                    <img src="images/image1.png" alt="Error">
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- featured categories section -->
+    <!-- 21 make a row -->
+    <div class="categories">
+        <!-- 23 make a container to add all images and set  -->
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 25 featured products section -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red printed T-Shirts</h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.500</p>
+            </div>
+            <!-- add same for the 3 images -->
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>HRX-Shoes-Black Color</h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1200</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Trowser</h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half -o"></i>
+                </div>
+                <p>Rs.850</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Puma T-Shirts</h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.350</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <!-- 32 latest products  copy as 25-->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="">
+                <h4>Shoes </h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.900</p>
+            </div>
+            <!-- add same for the 3 images -->
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Puma T-Shirts/Black</h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.500</p>
+            </div>
+
+
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Socks </h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half -o"></i>
+                </div>
+                <p>Rs.250</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="">
+                <h4>Fossil Watch</h4>
+                <!-- 27 font awesome 4 icons  for star icon-->
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.15000</p>
+            </div>
+
+
+
+            <!-- 33 same to add more products -->
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Roadster Watch </h4>
+                    <!-- 27 font awesome 4 icons  for star icon-->
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.2500</p>
+                </div>
+                <!-- add same for the 3 images -->
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Sparx Shoes/Black</h4>
+                    <!-- 27 font awesome 4 icons  for star icon-->
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.1100</p>
+                </div>
+
+
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Vans</h4>
+                    <!-- 27 font awesome 4 icons  for star icon-->
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half -o"></i>
+                    </div>
+                    <p>Rs.800</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Nike Trouser</h4>
+                    <!-- 27 font awesome 4 icons  for star icon-->
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>Rs.1500</p>
+                </div>
+            </div>
+
+            <!-- 34 offer  -->
+            <!-- offer -->
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="images/exclusive.png" alt="" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>Exclusively Available on RedStore</p>
+                            <h1>Smart Brand 4</h1>
+                            <small>The Mi Smart Brand 4 2.41 cm (0.95 inches) Color AMOLED full-touch display
+                                Water resistant up to 50m, Up to 20 days of battery life
+                                24/7 heart monitoring, Music and volume controls
+                                Unlimited watch faces, Bluetooth 5.0 Connectivity</small>
+                            <a href="" class="btn">Buy Now &#8594;</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 37 testimonial section -->
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-left "></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel qui mollitia adipisci
+                                culpa sapiente deleniti magnam, quia amet enim deserunt quasi? Vero architecto nostrum
+                                dolor, iure ducimus sint aliquam accusantium consequatur vel sequi.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-1.png" alt="">
+                            <h3>Sean Parker</h3>
+                        </div>
+
+                        <div class="col-3">
+                            <i class="fa fa-quote-left "></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel qui mollitia adipisci
+                                culpa sapiente deleniti magnam, quia amet enim deserunt quasi? Vero architecto nostrum
+                                dolor, iure ducimus sint aliquam accusantium consequatur vel sequi.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-2.png" alt="">
+                            <h3>Mike Smiths</h3>
+                        </div>
+
+                        <div class="col-3">
+                            <i class="fa fa-quote-left "></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel qui mollitia adipisci
+                                culpa sapiente deleniti magnam, quia amet enim deserunt quasi? Vero architecto nostrum
+                                dolor, iure ducimus sint aliquam accusantium consequatur vel sequi.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-3.png" alt="">
+                            <h3>Mabel Joe</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 39 brands -->
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-white.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- 41 footer -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <p>Download App For Android And ios Mobile Phones</p>
+                            <div class="app-logo">
+                                <img src="images/app-store.png " alt="">
+                                <img src="images/play-store.png " alt="">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="images/logo-white.png" alt="">
+                            <p>Our Purpose Is To Sustainable Make The Pleasure and Benefits Of Sports .
+
+                            </p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful-Link</h3>
+                            <ul>
+                                <li>Coupons</li>
+                                <li>Blog Post</li>
+                                <li>Return Policy</li>
+                                <li>Join Affiliates</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col-4">
+                            <h3>Useful-Link</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Instagram</li>
+                                <li>Twitter</li>
+                                <li>Youtube </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- js of toogle -->
+            <script>
+                let MenuItems  = document.getElementById("MenuItems");
+                MenuItems.style.maxHeight="0px";
+                
+                function menutoogle(){
+                    if(MenuItems.style.maxHeight="0px")
+                        {
+                        MenuItems.style.maxHeight="200px";
+                    }
+                    else{
+                        MenuItems.style.maxHeight="0px";
+                    }
+
+                }
+
+            </script>
+</body>
+
+</html>
